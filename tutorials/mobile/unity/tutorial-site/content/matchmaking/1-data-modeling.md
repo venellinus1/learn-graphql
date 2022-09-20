@@ -41,7 +41,7 @@ Next up, we shall create the `battles` table. It shall have the following column
 - `defender_lastseen` (Timestamp, nullable, default: now())  
 
 Ensure you set the column `id` as the primary key for the table.
-
+Note: shooter_lastseen and defender_lastseen should be nullable
 ![Battle Table](https://graphql-engine-cdn.hasura.io/learn-hasura/assets/graphql-unity/matchmaking/battle-table.jpg)
 
 Let us go through these columns to understand why they're important for matchmaking purposes.
